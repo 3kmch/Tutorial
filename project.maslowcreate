@@ -9,7 +9,7 @@
             "ioValues": [
                 {
                     "name": "Input936659",
-                    "ioValue": 10
+                    "ioValue": 20
                 }
             ],
             "topLevel": true,
@@ -20,7 +20,12 @@
                     "x": 62,
                     "y": 140,
                     "uniqueID": 491189,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 20
+                        }
+                    ]
                 },
                 {
                     "atomType": "Circle",
@@ -30,12 +35,8 @@
                     "uniqueID": 606028,
                     "ioValues": [
                         {
-                            "name": "radius",
-                            "ioValue": 20
-                        },
-                        {
-                            "name": "max segment size",
-                            "ioValue": 1
+                            "name": "diameter",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -158,5 +159,6 @@
             ],
             "fileTypeVersion": 1
         }
-    ]
+    ],
+    "circleSegmentSize": 2
 }
